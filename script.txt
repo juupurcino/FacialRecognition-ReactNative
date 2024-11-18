@@ -1,0 +1,9 @@
+create database casainteligente;
+use casainteligente;
+
+CREATE TABLE faces (
+    id INT(4),
+    photo LONGBLOB
+);
+
+select * from faces;
